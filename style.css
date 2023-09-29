@@ -1,3 +1,15 @@
+/* Body CSS. Automatically sets width of body and sets height has viewport. */
 body {
-    background: red;
+    width: auto;
+    height: 100vh;
+    background: linear-gradient(to left top, #0d0c5c, #533870) no-repeat;
+}
+
+/* Sets the CSS for the Navigation Bar text */
+.navbar li {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    list-style-type: none;
+    display: inline;
 }
